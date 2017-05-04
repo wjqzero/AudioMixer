@@ -28,5 +28,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btn_test2" />
+
+        <TextView
+            android:text="rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rate" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_rate"
+            android:min="0.5"
+            android:max="2"
+            android:progress="1"/>
     </LinearLayout>
 </RelativeLayout>
